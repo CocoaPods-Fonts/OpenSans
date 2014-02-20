@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+
+target :OpenSansDemo do
+  pod 'OpenSans', :path => '../'
+end
+
+target :OpenSansDemoTests do
+  pod 'Expecta'
+end
+

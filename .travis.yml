@@ -1,0 +1,9 @@
+language: objective-c
+before_install:
+  - gem install cocoapods
+  - gem install xcpretty
+  - cd Tests && pod install && cd $TRAVIS_BUILD_DIR
+script: "make"
+notifications:
+  irc: "chat.freenode.net#cocode"
+

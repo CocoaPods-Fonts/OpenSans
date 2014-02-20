@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED9DA365B944B7E9DA6E914 /* libPods-OpenSansDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AADC7DFF48F4006B74D8B48 /* libPods-OpenSansDemoTests.a */; };
+		77D2BC2118B631960095356B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC2018B631960095356B /* Foundation.framework */; };
+		77D2BC2318B631960095356B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC2218B631960095356B /* CoreGraphics.framework */; };
+		77D2BC2518B631960095356B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC2418B631960095356B /* UIKit.framework */; };
+		77D2BC2B18B631960095356B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D2BC2918B631960095356B /* InfoPlist.strings */; };
+		77D2BC2D18B631960095356B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2BC2C18B631960095356B /* main.m */; };
+		77D2BC3118B631960095356B /* CCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2BC3018B631960095356B /* CCLAppDelegate.m */; };
+		77D2BC3318B631960095356B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D2BC3218B631960095356B /* Images.xcassets */; };
+		77D2BC3A18B631960095356B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC3918B631960095356B /* XCTest.framework */; };
+		77D2BC3B18B631960095356B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC2018B631960095356B /* Foundation.framework */; };
+		77D2BC3C18B631960095356B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2BC2418B631960095356B /* UIKit.framework */; };
+		77D2BC4418B631960095356B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D2BC4218B631960095356B /* InfoPlist.strings */; };
+		77D2BC4618B631960095356B /* OpenSansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2BC4518B631960095356B /* OpenSansTests.m */; };
+		77D2BC5018B6325A0095356B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D2BC4F18B6325A0095356B /* Storyboard.storyboard */; };
+		77D2BC5318B632700095356B /* OpenSansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2BC5218B632700095356B /* OpenSansViewController.m */; };
+		9B2E76494253461DB4ACFC2C /* libPods-OpenSansDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2341A177F1409EB2AA3DD0 /* libPods-OpenSansDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77D2BC3D18B631960095356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D2BC1518B631960095356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D2BC1C18B631960095356B;
+			remoteInfo = OpenSansDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AADC7DFF48F4006B74D8B48 /* libPods-OpenSansDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenSansDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9EE4C958FD4A238C291F42 /* Pods-OpenSansDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSansDemo.xcconfig"; path = "Pods/Pods-OpenSansDemo.xcconfig"; sourceTree = "<group>"; };
+		53F0EEFE2CCB4DB4923B7FBD /* Pods-OpenSansDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSansDemoTests.xcconfig"; path = "Pods/Pods-OpenSansDemoTests.xcconfig"; sourceTree = "<group>"; };
+		77D2BC1D18B631960095356B /* OpenSansDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSansDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D2BC2018B631960095356B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77D2BC2218B631960095356B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77D2BC2418B631960095356B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77D2BC2818B631960095356B /* OpenSansDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenSansDemo-Info.plist"; sourceTree = "<group>"; };
+		77D2BC2A18B631960095356B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77D2BC2C18B631960095356B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D2BC2E18B631960095356B /* OpenSansDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenSansDemo-Prefix.pch"; sourceTree = "<group>"; };
+		77D2BC2F18B631960095356B /* CCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLAppDelegate.h; sourceTree = "<group>"; };
+		77D2BC3018B631960095356B /* CCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLAppDelegate.m; sourceTree = "<group>"; };
+		77D2BC3218B631960095356B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77D2BC3818B631960095356B /* OpenSansDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSansDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D2BC3918B631960095356B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77D2BC4118B631960095356B /* OpenSansDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenSansDemoTests-Info.plist"; sourceTree = "<group>"; };
+		77D2BC4318B631960095356B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77D2BC4518B631960095356B /* OpenSansTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSansTests.m; sourceTree = "<group>"; };
+		77D2BC4F18B6325A0095356B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		77D2BC5118B632700095356B /* OpenSansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSansViewController.h; sourceTree = "<group>"; };
+		77D2BC5218B632700095356B /* OpenSansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSansViewController.m; sourceTree = "<group>"; };
+		CC2341A177F1409EB2AA3DD0 /* libPods-OpenSansDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenSansDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D2BC1A18B631960095356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC2318B631960095356B /* CoreGraphics.framework in Frameworks */,
+				77D2BC2518B631960095356B /* UIKit.framework in Frameworks */,
+				77D2BC2118B631960095356B /* Foundation.framework in Frameworks */,
+				9B2E76494253461DB4ACFC2C /* libPods-OpenSansDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D2BC3518B631960095356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC3A18B631960095356B /* XCTest.framework in Frameworks */,
+				77D2BC3C18B631960095356B /* UIKit.framework in Frameworks */,
+				77D2BC3B18B631960095356B /* Foundation.framework in Frameworks */,
+				0ED9DA365B944B7E9DA6E914 /* libPods-OpenSansDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D2BC1418B631950095356B = {
+			isa = PBXGroup;
+			children = (
+				77D2BC2618B631960095356B /* OpenSansDemo */,
+				77D2BC3F18B631960095356B /* OpenSansDemoTests */,
+				77D2BC1F18B631960095356B /* Frameworks */,
+				77D2BC1E18B631960095356B /* Products */,
+				3D9EE4C958FD4A238C291F42 /* Pods-OpenSansDemo.xcconfig */,
+				53F0EEFE2CCB4DB4923B7FBD /* Pods-OpenSansDemoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		77D2BC1E18B631960095356B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC1D18B631960095356B /* OpenSansDemo.app */,
+				77D2BC3818B631960095356B /* OpenSansDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D2BC1F18B631960095356B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC2018B631960095356B /* Foundation.framework */,
+				77D2BC2218B631960095356B /* CoreGraphics.framework */,
+				77D2BC2418B631960095356B /* UIKit.framework */,
+				77D2BC3918B631960095356B /* XCTest.framework */,
+				CC2341A177F1409EB2AA3DD0 /* libPods-OpenSansDemo.a */,
+				1AADC7DFF48F4006B74D8B48 /* libPods-OpenSansDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77D2BC2618B631960095356B /* OpenSansDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC2F18B631960095356B /* CCLAppDelegate.h */,
+				77D2BC3018B631960095356B /* CCLAppDelegate.m */,
+				77D2BC5118B632700095356B /* OpenSansViewController.h */,
+				77D2BC5218B632700095356B /* OpenSansViewController.m */,
+				77D2BC4F18B6325A0095356B /* Storyboard.storyboard */,
+				77D2BC3218B631960095356B /* Images.xcassets */,
+				77D2BC2718B631960095356B /* Supporting Files */,
+			);
+			path = OpenSansDemo;
+			sourceTree = "<group>";
+		};
+		77D2BC2718B631960095356B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC2818B631960095356B /* OpenSansDemo-Info.plist */,
+				77D2BC2918B631960095356B /* InfoPlist.strings */,
+				77D2BC2C18B631960095356B /* main.m */,
+				77D2BC2E18B631960095356B /* OpenSansDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D2BC3F18B631960095356B /* OpenSansDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC4518B631960095356B /* OpenSansTests.m */,
+				77D2BC4018B631960095356B /* Supporting Files */,
+			);
+			path = OpenSansDemoTests;
+			sourceTree = "<group>";
+		};
+		77D2BC4018B631960095356B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D2BC4118B631960095356B /* OpenSansDemoTests-Info.plist */,
+				77D2BC4218B631960095356B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D2BC1C18B631960095356B /* OpenSansDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D2BC4918B631960095356B /* Build configuration list for PBXNativeTarget "OpenSansDemo" */;
+			buildPhases = (
+				3C195DC0423B49BEA73BEE94 /* Check Pods Manifest.lock */,
+				77D2BC1918B631960095356B /* Sources */,
+				77D2BC1A18B631960095356B /* Frameworks */,
+				77D2BC1B18B631960095356B /* Resources */,
+				41A73218318F411FA9DF1A85 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSansDemo;
+			productName = OpenSansDemo;
+			productReference = 77D2BC1D18B631960095356B /* OpenSansDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D2BC3718B631960095356B /* OpenSansDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D2BC4C18B631960095356B /* Build configuration list for PBXNativeTarget "OpenSansDemoTests" */;
+			buildPhases = (
+				34B498F96BF14FD1A217CBE1 /* Check Pods Manifest.lock */,
+				77D2BC3418B631960095356B /* Sources */,
+				77D2BC3518B631960095356B /* Frameworks */,
+				77D2BC3618B631960095356B /* Resources */,
+				DDA92BF84C93458186EC1D2C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D2BC3E18B631960095356B /* PBXTargetDependency */,
+			);
+			name = OpenSansDemoTests;
+			productName = OpenSansDemoTests;
+			productReference = 77D2BC3818B631960095356B /* OpenSansDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D2BC1518B631960095356B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Cocode;
+				TargetAttributes = {
+					77D2BC3718B631960095356B = {
+						TestTargetID = 77D2BC1C18B631960095356B;
+					};
+				};
+			};
+			buildConfigurationList = 77D2BC1818B631960095356B /* Build configuration list for PBXProject "OpenSansDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77D2BC1418B631950095356B;
+			productRefGroup = 77D2BC1E18B631960095356B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D2BC1C18B631960095356B /* OpenSansDemo */,
+				77D2BC3718B631960095356B /* OpenSansDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D2BC1B18B631960095356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC2B18B631960095356B /* InfoPlist.strings in Resources */,
+				77D2BC3318B631960095356B /* Images.xcassets in Resources */,
+				77D2BC5018B6325A0095356B /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D2BC3618B631960095356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC4418B631960095356B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34B498F96BF14FD1A217CBE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C195DC0423B49BEA73BEE94 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41A73218318F411FA9DF1A85 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OpenSansDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA92BF84C93458186EC1D2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OpenSansDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D2BC1918B631960095356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC2D18B631960095356B /* main.m in Sources */,
+				77D2BC5318B632700095356B /* OpenSansViewController.m in Sources */,
+				77D2BC3118B631960095356B /* CCLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D2BC3418B631960095356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BC4618B631960095356B /* OpenSansTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77D2BC3E18B631960095356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D2BC1C18B631960095356B /* OpenSansDemo */;
+			targetProxy = 77D2BC3D18B631960095356B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77D2BC2918B631960095356B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D2BC2A18B631960095356B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77D2BC4218B631960095356B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D2BC4318B631960095356B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D2BC4718B631960095356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D2BC4818B631960095356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D2BC4A18B631960095356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9EE4C958FD4A238C291F42 /* Pods-OpenSansDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSansDemo/OpenSansDemo-Prefix.pch";
+				INFOPLIST_FILE = "OpenSansDemo/OpenSansDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77D2BC4B18B631960095356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9EE4C958FD4A238C291F42 /* Pods-OpenSansDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSansDemo/OpenSansDemo-Prefix.pch";
+				INFOPLIST_FILE = "OpenSansDemo/OpenSansDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77D2BC4D18B631960095356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F0EEFE2CCB4DB4923B7FBD /* Pods-OpenSansDemoTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenSansDemo.app/OpenSansDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSansDemo/OpenSansDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenSansDemoTests/OpenSansDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77D2BC4E18B631960095356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F0EEFE2CCB4DB4923B7FBD /* Pods-OpenSansDemoTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenSansDemo.app/OpenSansDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSansDemo/OpenSansDemo-Prefix.pch";
+				INFOPLIST_FILE = "OpenSansDemoTests/OpenSansDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D2BC1818B631960095356B /* Build configuration list for PBXProject "OpenSansDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D2BC4718B631960095356B /* Debug */,
+				77D2BC4818B631960095356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D2BC4918B631960095356B /* Build configuration list for PBXNativeTarget "OpenSansDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D2BC4A18B631960095356B /* Debug */,
+				77D2BC4B18B631960095356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D2BC4C18B631960095356B /* Build configuration list for PBXNativeTarget "OpenSansDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D2BC4D18B631960095356B /* Debug */,
+				77D2BC4E18B631960095356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D2BC1518B631960095356B /* Project object */;
+}
