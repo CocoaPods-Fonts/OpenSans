@@ -37,7 +37,7 @@ void KOSLoadFontWithName(NSString *fontName) {
         KOSLoadFontWithName(fontFileName);
     });
 
-    return [UIFont fontWithName:fontName size:fontSize];
+    return [self fontWithName:fontName size:fontSize];
 }
 
 + (instancetype)openSansFontOfSize:(CGFloat)size {
