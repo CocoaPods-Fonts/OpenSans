@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'OpenSans'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.summary = 'A podspec encapsulating OpenSans font for iOS'
   spec.description = "Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp. This version contains the complete 897 character set, which includes the standard ISO Latin 1, Latin CE, Greek and Cyrillic character sets. Open Sans was designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms."
   spec.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE.txt' }
@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.source_files = 'UIFont+OpenSans.{h,m}'
   spec.resource_bundle = { 'OpenSans' => 'Fonts/*.ttf' }
   spec.frameworks = 'UIKit', 'CoreText'
+  spec.requires_arc = true
 end
 
