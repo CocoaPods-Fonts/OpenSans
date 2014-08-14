@@ -1,7 +1,7 @@
 OpenSans
 ========
 
-[![Build Status](https://travis-ci.org/kylef/OpenSans-pod.png?branch=master)](https://travis-ci.org/kylef/OpenSans-pod)
+[![Build Status](https://travis-ci.org/CocoaPods-Fonts/OpenSans.svg?branch=master)](https://travis-ci.org/CocoaPods-Fonts/OpenSans)
 
 Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type
 Director of Ascender Corp. This version contains the complete 897 character
