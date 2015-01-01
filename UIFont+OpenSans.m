@@ -5,13 +5,18 @@
 //
 
 #import <CoreText/CoreText.h>
-#import "UIFont+OpenSans.h"
+#import <OpenSans/UIFont+OpenSans.h>
 
+@interface KOSFontLoader : NSObject
 
-@implementation UIFont (OpenSans)
++ (void)loadFontWithName:(NSString *)fontName;
 
-void KOSLoadFontWithName(NSString *fontName) {
-    NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:@"OpenSans" withExtension:@"bundle"];
+@end
+
+@implementation KOSFontLoader
+
++ (void)loadFontWithName:(NSString *)fontName {
+    NSURL *bundleURL = [[NSBundle bundleForClass:[self class]] URLForResource:@"OpenSans" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
     NSURL *fontURL = [bundle URLForResource:fontName withExtension:@"ttf"];
     NSData *fontData = [NSData dataWithContentsOfURL:fontURL];
@@ -25,16 +30,20 @@ void KOSLoadFontWithName(NSString *fontName) {
             CFStringRef errorDescription = CFErrorCopyDescription(error);
             @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:(__bridge NSString *)errorDescription userInfo:@{ NSUnderlyingErrorKey: (__bridge NSError *)error }];
         }
-
+        
         CFRelease(font);
     }
 
     CFRelease(provider);
 }
 
+@end
+
+@implementation UIFont (OpenSans)
+
 + (instancetype)kosLoadAndReturnFont:(NSString *)fontName size:(CGFloat)fontSize onceToken:(dispatch_once_t *)onceToken fontFileName:(NSString *)fontFileName {
     dispatch_once(onceToken, ^{
-        KOSLoadFontWithName(fontFileName);
+        [KOSFontLoader loadFontWithName:fontFileName];
     });
 
     return [self fontWithName:fontName size:fontSize];
@@ -91,4 +100,3 @@ void KOSLoadFontWithName(NSString *fontName) {
 }
 
 @end
-
