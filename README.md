@@ -49,5 +49,5 @@ pod 'OpenSans'
 
 [Steve Matteson](https://profiles.google.com/107777320916704234605) owns the
 copyright to the OpenSans font and it is licensed under
-[Apache License, Version 2.0](LICENSE).
+[Apache License, Version 2.0](LICENSE.txt).
 
